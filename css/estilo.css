@@ -1,0 +1,148 @@
+body {
+	font-family:"Helvetica Neue", Arial, Trebuchet MS;
+	color:#606060;
+	font-size:1.2em;
+	background-color:#eee;
+	margin:0;
+	padding:0;
+}
+
+.header {
+	width:92%;
+	margin: 0 auto;
+	height:40px;
+	padding-bottom:20px;
+	background-color:#fff;
+	border-radius:3px;
+	border-bottom:20px solid #ccc;
+}
+
+.content {
+	width:100%;
+	height:auto;
+	text-align:justify;
+	margin: 20px 0px 20px 0px;
+}
+
+.content #formulario{
+	width:50%;
+	height:auto;
+	margin:0 auto;
+	border-radius:3px;
+	border:2px solid #ccc;
+	padding:30px;
+	text-align:center;
+	margin:0 auto;
+
+}
+.content #aplicacion{
+	width:80%;
+	height:auto;
+	margin:0 auto;
+	border-radius:3px;
+	border:2px solid #ccc;
+	padding:30px;
+	text-align:justify;
+	margin:0 auto;	
+}
+
+.text {
+	line-height:1;
+	font-weight:400;
+	text-align:justify;
+}
+
+.wrap {
+	width:90%;
+	border-radius:5px;
+	padding:5px;
+	background:#a83032;
+	height:auto;
+	margin:0 auto;
+	color: #ffffff;
+}
+.footer {
+	width:auto;
+	height:auto;
+	color:white;
+/*	color:#6c6c6c;*/
+	font-size:14px;
+	text-align:center;
+	padding:20px 0 50px;
+}
+a{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+}
+a:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+
+a:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #00f;
+    background-color: inherit;
+    text-decoration: underline;
+}
+
+input {
+    border-radius:5px;
+    padding:3px;
+}
+/*botones*/
+#btnacceder{
+	width:125px;
+}
+button {
+	color: blue;
+	font-size:18px;
+	border-radius: 4px;
+	cursor:pointer;
+}
+button:hover {
+
+}
+
+/**/
+div.pager {
+    text-align: center;
+	padding:3px;
+}
+
+div.pager span {
+    display: inline-block;
+	border-radius:8px;	
+	color:#0194EF;
+	border: 1px solid gray; 
+    cursor: pointer;
+	padding:0px 12px 0px 12px;
+}
+
+div.pager span.active {
+	color:#ffffff;
+   background:red;	
+}
